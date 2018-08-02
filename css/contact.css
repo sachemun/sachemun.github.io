@@ -1,0 +1,58 @@
+.background-img {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/contact-bkgrd.jpg);
+  background-size: cover;
+  height: 75vh;
+  background-position: center;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Lato', sans-serif;
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+.follow {
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 2em;
+  }
+}
+
+.flex-grid-thirds {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 20px 0;
+}
+
+.flex-grid-thirds .col-third {
+  width: 32%;
+  flex: 1;
+  margin: 0 10px 0 10px;
+}
+
+@media screen and (max-width: 530px) {
+  .flex-grid-thirds {
+    display: block;
+  }
+  .flex-grid-thirds .col-third {
+    width: 100%;
+    margin: 20px 10px 20px 10px;
+  }
+}

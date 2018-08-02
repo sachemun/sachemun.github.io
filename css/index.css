@@ -51,16 +51,6 @@ h5 {
     font-size: 1rem;
   }
 }
-header {
-  animation: 0.5s fadein 0.25s forwards;
-  opacity: 0;
-}
-
-@keyframes fadein {
-  100% {
-    opacity: 1
-  }
-}
 
 .mid-text {
   font-family: 'Open Sans', sans-serif;
@@ -71,8 +61,6 @@ header {
   vertical-align: middle;
   box-sizing: border-box;
   text-align: center;
-  opacity: 0;
-  animation: 0.5s slidefade 0.5s forwards;
   width: 100%;
 }
 
@@ -80,12 +68,7 @@ header {
   margin-bottom: 0;
 }
 
-@keyframes slidefade {
-  100% {
-    opacity: 1;
-    margin: 0;
-  }
-}
+
 
 .nav-list {
   display: flex;

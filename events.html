@@ -23,6 +23,8 @@
     <link rel="stylesheet" href="css/contentpage.css">
     <!--Animations -->
     <link rel="stylesheet" href="css/animate/animate.min.css">
+    <!-- Page Specific CSS -->
+    <link rel="stylesheet" href="css/events.css">
 
     <!--Font-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -33,7 +35,7 @@
   <body>
     <div class="site-wrapper">
       <header>
-        <nav class="nav animated fadeInDown">
+        <nav class="nav">
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link active" href="events.html">Events</a></li>
@@ -43,11 +45,18 @@
           </ul>
         </nav>
       </header>
+      <div class="background-img">
+        <div class="title">
+          <p class="title-main">Stay Up to Date</p>
+          <p class="subtitle">With Our Calendar</p>
+        </div>
+      </div>
       <div class="flex-grid">
         <div class="col">
         </div>
         <div class="col-main">
-        </div>
+          <!-- Calendar widget from https://feed.mikle.com/ --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" data-fw-param="87242/"></script>
+        </div
         <div class="col">
         </div>
       </div>

@@ -10,31 +10,6 @@
   background-position: center;
 }
 
-.title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  text-align: center;
-  font-size: 3em;
-  font-family: 'Lato', sans-serif;
-}
-
-.lead {
-  font-size: 1.5em;
-}
-
-.follow {
-  font-size: 1.25em;
-}
-
-@media screen and (max-width: 480px) {
-  .title {
-    font-size: 2em;
-  }
-}
-
 .flex-grid-thirds {
   display: flex;
   justify-content: space-between;

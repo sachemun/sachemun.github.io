@@ -1,0 +1,11 @@
+.background-img {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/events-bkgrd.jpg);
+  background-size: cover;
+  height: 75vh;
+  background-position: center;
+}

@@ -10,6 +10,9 @@
   background-position: center;
 }
 
+.name {
+  font-size: 1em;
+}
 .flex-grid-thirds {
   display: flex;
   justify-content: space-between;

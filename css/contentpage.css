@@ -43,6 +43,10 @@
   font-size: 1.25em;
 }
 
+.small {
+  font-size: 1em;
+}
+
 /* Text on Images*/
 .title {
   position: absolute;
@@ -103,6 +107,7 @@
   min-height: 50px;
   position: relative;
   z-index: 500;
+  margin: 0;
 }
 
 @media screen and (max-width: 740px) {
@@ -144,4 +149,18 @@
   .nav-list {
     min-height: 30px;
   }
+}
+
+/* Text decoration*/
+
+.space {
+  margin-bottom: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
 }

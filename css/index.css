@@ -6,6 +6,11 @@ h5 {
   margin: 0;
 }
 
+.keywords {
+  color: black;
+  z-index: -100;
+}
+
 body {
   height: 100%;
   overflow: hidden;

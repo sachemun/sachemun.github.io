@@ -6,5 +6,9 @@
   text-decoration: none;
 }
 
+.link:visited {
+  color: #0000EE;
+}
+
 .link-item {
 }

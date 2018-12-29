@@ -4,11 +4,21 @@
 
 .link {
   text-decoration: none;
+  color: #5b72dc;
+}
+.link:hover {
+  font-weight: bold;
+}
+.link:active {
+
 }
 
 .link:visited {
-  color: #0000EE;
+  color: #5b72dc;
 }
 
 .link-item {
+  font-size: 20px;
+  cursor: default;
+  padding: inherit;
 }

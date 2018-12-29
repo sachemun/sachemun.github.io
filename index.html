@@ -27,11 +27,15 @@
     <!--Font-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <script src="js/jquerymin.js"></script>
+    <link rel="stylesheet" href="css/nav.css">
   </head>
 
   <body>
     <div class="site-wrapper">
       <header>
+      <!--
         <nav class="nav animated fadeInDown">
           <ul class="nav-list">
             <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
@@ -41,6 +45,20 @@
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
           </ul>
         </nav>
+      -->
+      <button class="menu-toggle"></button>
+<script src="js/script.js" charset="utf-8"></script>
+
+<nav>
+  <ul class="menu">
+    <li onclick="location.href='index.html';" data-text="Home">Home</li>
+    <li onclick="location.href='events.html';" data-text="Events">Events</li>
+    <li onclick="location.href='conference.html';" data-text="Conference">Conference</li>
+    <li onclick="location.href='gallery.html';" data-text="Gallery">Gallery</li>
+    <li onclick="location.href='resources.html';" data-text="Resources">Resources</li>
+    <li onclick="location.href='contact.html';" data-text="Contact">Contact</li>
+  </ul>
+</nav>
       </header>
 
       <div class="site-wrapper-inner">

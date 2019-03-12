@@ -1,4 +1,4 @@
-.site-wrapper {
+/*.site-wrapper {
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -15,4 +15,24 @@
     overflow-y: hidden;
     background-color: black;
     background-attachment: fixed;
+}*/
+
+.background-img {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../img/unga-debate.jpg);
+  background-size: cover;
+  height: 75vh;
+  background-position: center;
 }
+
+.title-main {
+    font-family: 'Fjalla One', sans-serif;
+}
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+}
+

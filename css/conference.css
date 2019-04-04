@@ -23,7 +23,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/unga-debate.jpg);
+    url(../img/sachem.png);
   background-size: cover;
   height: 75vh;
   background-position: center;
@@ -35,4 +35,3 @@
 .subtitle {
     font-family: 'Open Sans', sans-serif;
 }
-

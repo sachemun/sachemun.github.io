@@ -23,9 +23,9 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../img/sachem.jpg);
+    url(../img/unga-debate.jpg);
   background-size: cover;
-  height: 75vh;
+  height: 100vh;
   background-position: center;
 }
 
